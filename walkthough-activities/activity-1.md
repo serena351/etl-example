@@ -27,7 +27,7 @@ Given these epics and their requirements, create user stories for each epic.  Th
 
 ```txt
 As a Data Analyst,  
-I want a single, clean dataset combining transaction and demogahpic data   
+I want a single, clean dataset combining transaction and demographic data   
 So that I can analyse the data
 ```
 
@@ -39,7 +39,7 @@ I want to analyse spending per customer,
 So that I can identify high-value customers
 
 As a Business Stakeholder,  
-I want to identify customers who have spent more than **$500**,  
+I want to identify customers who have spent more than $500,  
 So that I can identify key customers
 ```
 
