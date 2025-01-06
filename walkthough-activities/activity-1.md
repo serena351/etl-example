@@ -27,40 +27,40 @@ Given these epics and their requirements, create user stories for each epic.  Th
 
 ```txt
 As a Data Analyst,  
-I want ,  
-So that I can 
+I want a single, clean dataset combining transaction and demogahpic data   
+So that I can analyse the data
 ```
 
 #### Epic 2: Customer Insights
 
 ```txt
 As a Data Analyst,  
-I want ,  
-So that I can 
+I want to analyse spending per customer,  
+So that I can identify high-value customers
 
 As a Business Stakeholder,  
-I want ,  
-So that 
+I want to identify customers who have spent more than **$500**,  
+So that I can identify key customers
 ```
 
 #### Epic 3: Demographic Trends
 
 ```txt
 As a Business Stakeholder,  
-I want ,  
-So that 
+I want to identify key customers,  
+So that I can gain insights into the age and country of these customers
 ```
 
 #### Epic 4: Data Storage and Access
 
 ```txt
 As a Data Scientist,  
-I want ,  
-So that .
+I want assurance that the data is clean, consistent, and accurate,  
+So that I can perform accurate analysis.
 
 As a Data Scientist,
-I want ,
-So that 
+I want the data stored in a SQL table,
+So that I can reset and update the data for repeat or future analysis
 ```
 
 ---
