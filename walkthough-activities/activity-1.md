@@ -39,8 +39,8 @@ I want to analyse spending per customer,
 So that I can identify high-value customers
 
 As a Business Stakeholder,  
-I want to identify customers who have spent more than $500,  
-So that I can identify key customers
+I want to identify customers who have spent more than $500 with us and are still active,  
+So that I can identify our key customers
 ```
 
 #### Epic 3: Demographic Trends
