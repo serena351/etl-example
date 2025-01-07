@@ -20,7 +20,7 @@ I want access to a single, clean, and accurate dataset combining customer demogr
 So that I can analyse customer behaviour without worrying about data inconsistencies and can rely on it for analysis without manual checks.
 ```
 
-### Acceptance Criteria the Require Test Cases
+### Acceptance Criteria that Require Test Cases
 
 - **Data Extraction**
   - [ ] Given the database contains 10,500 rows with 4 fields, when the data is extracted, then it should complete in less than 1 minute.
@@ -109,10 +109,21 @@ then it should complete in less than 30 seconds.
 
 Here we need to test that the following things happen:
 
-- ***Test Type 1***:
-  - Test Case 1
-...
 
-Add as needed!
+- ***Performance Test***:
+  - [ ] - Verify that the data extraction completes in less than 1 minute (regardless of the number of rows).
+- ***Functional Tests***:
+  - [ ] - Verify that the data extraction retrieves exactly 4 fields per row.
+- ***Data Integrity Tests***:
+  - [ ] - Verify data consistency between the extracted data and the source database.
+  - [ ] - Verify data accuracy for a sample of rows.
+- ***Reliability Tests***:
+  - [ ] - Verify that the code handles a database connection error gracefully
+  - [ ] - Verify that the code handles a database query error gracefully
+  - [ ] - Verify that the code handles a database timeout error gracefully
+- ***Code Quality Tests***:
+  - [ ] - SQL queries pass linting and formatting checks.
+  - [ ] - Python scripts pass linting and formatting checks.
+  - [ ] - Test coverage on the database extraction script is at least 90%.
 
 ---
