@@ -118,9 +118,9 @@ Here we need to test that the following things happen:
   - [ ] - Verify data consistency between the extracted data and the source file.
   - [ ] - Verify data accuracy for a sample of rows.
 - ***Reliability Tests***:
-  - [ ] - Verify that the code handles a database connection error gracefully
-  - [ ] - Verify that the code handles a database query error gracefully
-  - [ ] - Verify that the code handles a database timeout error gracefully
+  - [ ] - Verify that the code handles a csv read error gracefully
+  - [ ] - Verify that the code handles a file format error gracefully
+  - [ ] - Verify that the code handles a read timeout error gracefully
 - ***Code Quality Tests***:
   - [ ] - Python scripts pass linting and formatting checks.
   - [ ] - Test coverage on the data extraction script is at least 90%.
