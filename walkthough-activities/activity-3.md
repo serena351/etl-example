@@ -111,19 +111,18 @@ Here we need to test that the following things happen:
 
 
 - ***Performance Test***:
-  - [ ] - Verify that the data extraction completes in less than 1 minute (regardless of the number of rows).
+  - [ ] - Verify that the data extraction completes in less than 30 seconds. (regardless of the number of rows).
 - ***Functional Tests***:
-  - [ ] - Verify that the data extraction retrieves exactly 4 fields per row.
+  - [ ] - Verify that the data extraction retrieves exactly 5 columns per row.
 - ***Data Integrity Tests***:
-  - [ ] - Verify data consistency between the extracted data and the source database.
+  - [ ] - Verify data consistency between the extracted data and the source file.
   - [ ] - Verify data accuracy for a sample of rows.
 - ***Reliability Tests***:
   - [ ] - Verify that the code handles a database connection error gracefully
   - [ ] - Verify that the code handles a database query error gracefully
   - [ ] - Verify that the code handles a database timeout error gracefully
 - ***Code Quality Tests***:
-  - [ ] - SQL queries pass linting and formatting checks.
   - [ ] - Python scripts pass linting and formatting checks.
-  - [ ] - Test coverage on the database extraction script is at least 90%.
+  - [ ] - Test coverage on the data extraction script is at least 90%.
 
 ---
